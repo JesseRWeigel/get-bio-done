@@ -1,0 +1,26 @@
+{
+  "name": "gbd-conventions",
+  "description": "Bioinformatics pipeline convention lock management",
+  "version": "0.1.0",
+  "transport": "stdio",
+  "module": "gbd.mcp.conventions_server",
+  "capabilities": [
+    "convention_set",
+    "convention_check",
+    "convention_diff",
+    "convention_list",
+    "convention_describe"
+  ],
+  "fields": [
+    "reference_genome",
+    "gene_annotation_source",
+    "aligner",
+    "variant_caller",
+    "significance_threshold",
+    "multiple_testing_correction",
+    "normalization_method",
+    "quality_thresholds",
+    "filtering_criteria",
+    "container_env_versions"
+  ]
+}

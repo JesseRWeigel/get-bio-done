@@ -1,0 +1,51 @@
+# Scratch files
+.scratch/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# GBD runtime
+.gbd/observability/
+.gbd/.state.lock
+.gbd/.state-write-intent
+
+# Large bioinformatics data files (use Git LFS or external storage)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bam.bai
+*.sam
+*.cram
+*.crai
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.bcf.csi
+*.bed
+*.bigwig
+*.bw
+*.h5ad
+*.h5
+*.hdf5
+*.loom
+data/raw/

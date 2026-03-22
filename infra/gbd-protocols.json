@@ -1,0 +1,39 @@
+{
+  "name": "gbd-protocols",
+  "description": "Bioinformatics domain methodology protocols",
+  "version": "0.1.0",
+  "transport": "stdio",
+  "module": "gbd.mcp.protocols_server",
+  "capabilities": [
+    "get_protocol",
+    "route_protocol",
+    "list_protocols"
+  ],
+  "protocols": [
+    "rnaseq-bulk-de",
+    "rnaseq-single-cell",
+    "rnaseq-pseudo-alignment",
+    "rnaseq-long-read",
+    "variant-germline-short",
+    "variant-somatic-tumor-normal",
+    "variant-structural",
+    "variant-population-gwas",
+    "chipseq-peak-calling",
+    "atacseq-chromatin-accessibility",
+    "methylation-bisulfite",
+    "methylation-nanopore",
+    "metagenomics-16s",
+    "metagenomics-shotgun",
+    "proteomics-mass-spec",
+    "spatial-transcriptomics",
+    "multi-omics-integration",
+    "genome-assembly-short-read",
+    "genome-assembly-long-read",
+    "phylogenetics-alignment-tree",
+    "clinical-variant-interpretation",
+    "copy-number-analysis",
+    "gene-fusion-detection",
+    "rna-editing-detection",
+    "alternative-splicing"
+  ]
+}

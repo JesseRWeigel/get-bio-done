@@ -1,0 +1,15 @@
+{
+  "name": "gbd-state",
+  "description": "Project state queries for Get Bio Done",
+  "version": "0.1.0",
+  "transport": "stdio",
+  "module": "gbd.mcp.state_server",
+  "capabilities": [
+    "get_state",
+    "advance_plan",
+    "run_health_check",
+    "get_phase_status",
+    "get_current_position"
+  ],
+  "health_check": "gbd.mcp.state_server:health_check"
+}
