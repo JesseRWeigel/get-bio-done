@@ -1,0 +1,26 @@
+{
+  "name": "get-bio-done",
+  "version": "0.1.0",
+  "description": "AI copilot for autonomous bioinformatics research",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JesseRWeigel/get-bio-done"
+  },
+  "bin": {
+    "get-bio-done": "bin/install.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "keywords": [
+    "bioinformatics",
+    "genomics",
+    "computational-biology",
+    "ai",
+    "research",
+    "autonomous",
+    "claude-code",
+    "mcp"
+  ]
+}
